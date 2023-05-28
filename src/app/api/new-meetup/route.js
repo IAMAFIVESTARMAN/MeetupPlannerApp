@@ -24,7 +24,7 @@ import { MongoClient } from "mongodb";
 
 // export async function POST() {
 //   const client =await MongoClient.connect(
-//     "mongodb+srv://jeff:jeff@clusterbeta.f7vjhfq.mongodb.net/meetups?retryWrites=true&w=majority"
+
 //   );
 //   const db=client.db()
 //   const meetUpsCollection=db.collection('meetups')
