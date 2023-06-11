@@ -11,6 +11,7 @@ export default function NewMeetUpPage() {
   // throw new Error("uh ho fucked it");
   async function addMeetupHandler(enteredMeetupData) {
     const response = await fetch("http://localhost:3000/api/new-meetup", {
+      "Content-Type": "application/json",
       method: "POST",
       body: JSON.stringify(enteredMeetupData),
     });
