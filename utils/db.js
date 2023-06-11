@@ -1,10 +1,6 @@
 import mongoose from "mongoose";
 
-if (!process.env.MONGO) {
-  throw new Error(
-    "Please define the MONGODB_URI environment variable inside .env.local"
-  );
-}
+
 
 const connect = async () => {
   try {
