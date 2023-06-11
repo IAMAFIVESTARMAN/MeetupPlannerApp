@@ -10,8 +10,6 @@ export async function POST(request) {
     // const meetups = await Meetups.find();
     const res = await Meetups.create(data);
 
-    console.log(res);
-
     //fetch
 
     return NextResponse.json(res, {
